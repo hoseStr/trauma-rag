@@ -8,7 +8,7 @@ describe con citas. Todo corre **en local**: ningún texto sale de la máquina.
 ## 1. Instalar
 
 ```powershell
-git clone https://github.com/jestronga/trauma-rag.git
+git clone https://github.com/hoseStr/trauma-rag.git
 cd trauma-rag
 python -m venv .venv
 .\.venv\Scripts\activate
@@ -120,7 +120,7 @@ $env:MODELO_LLM="qwen2.5:3b-instruct-q4_K_M"
 ## 3. Construir corpus e índices
 
 El corpus lo produce el pipeline de anonimización
-([trauma-anonimizacion](https://github.com/jestronga/trauma-anonimizacion)):
+([trauma-anonimizacion](https://github.com/hoseStr/trauma-anonimizacion)):
 `outputs/corpus_indexable.jsonl`, un caso por línea. Cópialo a `data/` o
 apunta `CORPUS_JSONL` a él. El formato está en `data/README.md`.
 

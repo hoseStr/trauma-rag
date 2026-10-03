@@ -1,7 +1,7 @@
 # data/
 
 Aquí va `corpus_indexable.jsonl`, el corpus que produce
-[trauma-anonimizacion](https://github.com/jestronga/trauma-anonimizacion).
+[trauma-anonimizacion](https://github.com/hoseStr/trauma-anonimizacion).
 Git ignora todo lo que hay en esta carpeta salvo este archivo. Para usar otra
 ruta, define la variable de entorno `CORPUS_JSONL`.
 
