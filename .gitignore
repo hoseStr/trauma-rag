@@ -1,0 +1,20 @@
+# Este repo es solo código. El corpus, los índices (contienen el texto completo
+# de los casos) y los reportes de evaluación no deben versionarse.
+data/*
+!data/README.md
+indices/
+reports/
+eval/revision/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.pkl
+*.sqlite
+*.xlsx
+
+# Entorno y cachés
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
