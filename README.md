@@ -7,7 +7,7 @@ ningún texto clínico sale de la máquina, y funciona en una GPU de 4–8 GB.
 
 Es la segunda mitad de un proyecto de dos partes. El corpus que indexa lo
 produce el pipeline de anonimización:
-**[trauma-anonimizacion](https://github.com/hoseStr/trauma-anonimizacion)**.
+**[trauma-anonimizacion](https://github.com/hoseStr/anonimizacion-trauma)**.
 
 > **Sin datos.** Este repositorio contiene solo código y documentación. Los
 > índices, el corpus y los reportes de evaluación con texto clínico no se
@@ -131,7 +131,7 @@ tests/                  hallazgos, ensamblado, verificador, reranker, evaluació
 ## Cómo ejecutarlo
 
 Necesitas el corpus generado por
-[trauma-anonimizacion](https://github.com/hoseStr/trauma-anonimizacion)
+[trauma-anonimizacion](https://github.com/hoseStr/anonimizacion-trauma)
 (`corpus_indexable.jsonl`) y [Ollama](https://ollama.com).
 
 ```bash
